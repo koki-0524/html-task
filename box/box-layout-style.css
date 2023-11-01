@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+  }
+  .item {
+    width: 25%;
+    height: 550px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(255, 213, 220);
+  }
+  h2{
+    width: 90%;
+  }
+  .ikura{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .oomori{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .huziwara{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .takenaka{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .isihara{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .vaund{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .box {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  a {
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(185, 233, 250);
+    display: block;
+    text-decoration: none;
+    border-radius: 30px;
+  }
+  p {
+    width: 90%;
+  }
