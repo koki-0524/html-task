@@ -1,0 +1,59 @@
+header {
+    background-color: aquamarine;
+    padding: 0.5rem;
+}
+header{
+    width: 100%;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+}
+body{
+    min-width: 700px;
+}
+header ul li + li{
+    border-left: 2px solid #00552E;
+}
+header ul a{
+    display: block;
+    padding: 0.5rem;
+    color: rgb(17, 71, 72);
+    text-decoration: none;
+    font-weight: bold;
+}
+header ul li{
+    width: 20%;
+    text-align: center;
+}
+.breadcrumbs{
+    display: flex;
+    list-style: none;
+}
+.breadcrumbs li::after{
+    content: ">";
+    padding: 0 0.5rem;
+}
+
+.breadcrumbs li:last-child::after {
+    content: "";
+}
+
+.breadcrumbs li a:link {
+color: chartreuse;
+}
+
+.breadcrumbs li a:visited {
+color: darksalmon;
+}
+
+.breadcrumbs li a:hover {
+text-decoration: none;
+}
+
+
+header img {
+    width: 30rem;
+    display: inline-block;
+}
